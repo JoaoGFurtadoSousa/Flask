@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="GET">
+        <label for="pesquisa">Digite algo: </label>
+        <input type="text" name="pesquisa" id="resultado">
+    </form>
+    <p>Voce realizou a pesquisa de {{dicionario['resultado']}}</p>
+    <br>
+    <form method="POST">
+        <label>Digite algo</label>
+        <input type="text" name="enviaDados" id="resultado">
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
